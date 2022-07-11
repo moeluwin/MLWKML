@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:background="@drawable/mk">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="36dp"
+		android:text="မဂၤလာပါဗ်ာ"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:gravity="center"
+		android:textColor="#FFB11F1F"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="38dp"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="69dp"
+			android:layout_height="match_parent"
+			android:text="0kb/s"
+			android:gravity="center"
+			android:textColor="#FFDF25B5"/>
+
+		<Spinner
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"/>
+
+		<TextView
+			android:layout_width="75dp"
+			android:layout_height="match_parent"
+			android:text="0kb/s"
+			android:gravity="center"
+			android:textColor="#FFE737C5"/>
+
+	</LinearLayout>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="textPostalAddress"
+		android:layout_height="42dp"
+		android:ems="10"
+		android:hint="Username"
+		android:textColorHint="#FF0DD132"
+		android:layout_gravity="center"
+		android:textColor="#FFF21515"
+		android:gravity="center"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="textPassword"
+		android:layout_height="44dp"
+		android:ems="10"
+		android:layout_gravity="center"
+		android:hint="Password"
+		android:textColorHint="#FF22D912"
+		android:textColor="#FFD91515"
+		android:gravity="center"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="42dp"
+		android:gravity="center">
+
+		<Button
+			android:layout_width="200dp"
+			android:layout_height="match_parent"
+			android:text="Sart"
+			android:gravity="center"
+			android:textColor="#FF280FA7"/>
+
+		<CheckBox
+			android:layout_width="32dp"
+			android:layout_height="match_parent"
+			android:gravity="center"/>
+
+	</LinearLayout>
+
+</LinearLayout>
