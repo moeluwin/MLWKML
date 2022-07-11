@@ -24,7 +24,7 @@
 			android:padding="8.0dip"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="FREE VPN NET"/>
+			android:text="မဂၤလာရွိေသာ့ေန့ေလးပါ"/>
 
 		<LinearLayout
 			android:orientation="horizontal"
