@@ -4,11 +4,12 @@
 	android:orientation="vertical"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:background="@drawable/kyimarlin">
+	android:gravity="center"
+	android:background="@drawable/mk">
 
 	<TextView
 		android:layout_width="match_parent"
-		android:layout_height="43dp"
+		android:layout_height="36dp"
 		android:text="မဂၤလာပါဗ်ာ"
 		android:textAppearance="?android:attr/textAppearanceMedium"
 		android:gravity="center"
@@ -79,35 +80,6 @@
 			android:layout_width="32dp"
 			android:layout_height="match_parent"
 			android:gravity="center"/>
-
-	</LinearLayout>
-	:orientation="horizontal"
-		android:layout_width="match_parent"
-		android:layout_height="75dp"
-		android:gravity="center">
-
-		<TextView
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			android:text="အရမ္းခ်စ္တယ္ခ်စ္ဆံုးေလးေရ"
-			android:textAppearance="?android:attr/textAppearanceMedium"
-			android:gravity="center"
-			android:textColor="#FF37FF10"/>
-
-	</LinearLayout>
- 	<LinearLayout
-		android:orientation="horizontal"
-		android:layout_width="match_parent"
-		android:layout_height="75dp"
-		android:gravity="center">
-
-		<TextView
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			android:text="အရမ္းခ်စ္တယ္ခ်စ္ဆံုးေလးေရ"
-			android:textAppearance="?android:attr/textAppearanceMedium"
-			android:gravity="center"
-			android:textColor="#FF37FF10"/>
 
 	</LinearLayout>
 
