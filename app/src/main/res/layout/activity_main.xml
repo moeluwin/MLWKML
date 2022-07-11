@@ -1,85 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
 	android:orientation="vertical"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
-	android:gravity="center"
-	android:background="@drawable/mk">
-
-	<TextView
-		android:layout_width="match_parent"
-		android:layout_height="36dp"
-		android:text="မဂၤလာပါဗ်ာ"
-		android:textAppearance="?android:attr/textAppearanceMedium"
-		android:gravity="center"
-		android:textColor="#FFB11F1F"/>
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
 
 	<LinearLayout
-		android:orientation="horizontal"
-		android:layout_width="match_parent"
-		android:layout_height="38dp"
-		android:gravity="center">
+		android:layout_gravity="center"
+		android:orientation="vertical"
+		android:id="@id/linear3"
+		android:background="@drawable/mk"
+		android:padding="8.0dip"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
 
 		<TextView
-			android:layout_width="69dp"
-			android:layout_height="match_parent"
-			android:text="0kb/s"
-			android:gravity="center"
-			android:textColor="#FFDF25B5"/>
-
-		<Spinner
+			android:textSize="30.0sp"
+			android:textStyle="bold|italic"
+			android:textColor="#ffffeb3b"
+			android:layout_gravity="center"
+			android:id="@id/textview2"
+			android:padding="8.0dip"
 			android:layout_width="wrap_content"
-			android:layout_height="match_parent"/>
+			android:layout_height="wrap_content"
+			android:text="FREE VPN NET"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:id="@id/linear11"
+			android:padding="8.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="56.0dip">
+
+			<Spinner
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:id="@id/linear4"
+			android:padding="8.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="65.0dip">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:id="@id/linear5"
+				android:padding="8.0dip"
+				android:layout_width="150.0dip"
+				android:layout_height="fill_parent">
+
+				<TextView
+					android:textSize="16.0sp"
+					android:textStyle="bold"
+					android:textColor="#ffffc107"
+					android:layout_gravity="center"
+					android:id="@id/bytes_in"
+					android:padding="8.0dip"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="0kb/s"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:id="@id/linear6"
+				android:padding="8.0dip"
+				android:layout_width="170.0dip"
+				android:layout_height="fill_parent">
+
+				<TextView
+					android:textSize="16.0sp"
+					android:textStyle="bold"
+					android:textColor="#ffffc107"
+					android:layout_gravity="center"
+					android:id="@id/bytes_out"
+					android:padding="8.0dip"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="0kb/s"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
 
 		<TextView
-			android:layout_width="75dp"
-			android:layout_height="match_parent"
-			android:text="0kb/s"
-			android:gravity="center"
-			android:textColor="#FFE737C5"/>
+			android:textSize="20.0sp"
+			android:textStyle="bold|italic"
+			android:textColor="#ffff5722"
+			android:layout_gravity="center"
+			android:id="@id/duration"
+			android:padding="8.0dip"
+			android:layout_width="wrap_content"
+			android:layout_height="50.0dip"
+			android:text="00H00M00S"/>
 
-	</LinearLayout>
+		<LinearLayout
+			android:layout_gravity="center"
+			android:orientation="horizontal"
+			android:id="@id/linear7"
+			android:padding="8.0dip"
+			android:layout_width="300.0dip"
+			android:layout_height="70.0dip">
 
-	<EditText
-		android:layout_width="wrap_content"
-		android:inputType="textPostalAddress"
-		android:layout_height="42dp"
-		android:ems="10"
-		android:hint="Username"
-		android:textColorHint="#FF0DD132"
-		android:layout_gravity="center"
-		android:textColor="#FFF21515"
-		android:gravity="center"/>
+			<LinearLayout
+				android:gravity="center"
+				android:orientation="vertical"
+				android:id="@id/linear8"
+				android:padding="8.0dip"
+				android:layout_width="140.0dip"
+				android:layout_height="fill_parent">
 
-	<EditText
-		android:layout_width="wrap_content"
-		android:inputType="textPassword"
-		android:layout_height="44dp"
-		android:ems="10"
-		android:layout_gravity="center"
-		android:hint="Password"
-		android:textColorHint="#FF22D912"
-		android:textColor="#FFD91515"
-		android:gravity="center"/>
+				<Button
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:text="Connect"
+					android:background="#312F9E"
+					android:textColor="#36B744"/>
 
-	<LinearLayout
-		android:orientation="horizontal"
-		android:layout_width="match_parent"
-		android:layout_height="42dp"
-		android:gravity="center">
+			</LinearLayout>
 
-		<Button
-			android:layout_width="200dp"
-			android:layout_height="match_parent"
-			android:text="Sart"
-			android:gravity="center"
-			android:textColor="#FF280FA7"/>
+			<LinearLayout
+				android:orientation="vertical"
+				android:id="@id/linear9"
+				android:padding="8.0dip"
+				android:layout_width="140.0dip"
+				android:layout_height="fill_parent">
 
-		<CheckBox
-			android:layout_width="32dp"
-			android:layout_height="match_parent"
-			android:gravity="center"/>
+				<Button
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:text="Disconnect"
+					android:background="#1014BC"
+					android:textColor="#38CF38"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:id="@id/linear12"
+			android:padding="8.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="300.0dip"/>
+
+		<TextView
+			android:textSize="25.0sp"
+			android:textStyle="bold|italic"
+			android:textColor="#ffffc107"
+			android:layout_gravity="center"
+			android:id="@id/disconnected"
+			android:padding="8.0dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="disconnected"/>
 
 	</LinearLayout>
 
