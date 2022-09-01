@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item type="id" name="linear3">false</item>
+<item type="id" name="linear11">false</item>
+<item type="id" name="textview2">false</item>
+<item type="id" name="linear4">false</item>
+<item type="id" name="linear5">false</item>
+<item type="id" name="linear6">false</item>
+<item type="id" name="linear7">false</item>
+<item type="id" name="linear8">false</item>
+<item type="id" name="linear9">false</item>
+<item type="id" name="linear12">false</item>
+<item type="id" name="disconnected">false</item>
+<item type="id" name="bytes_in">false</item>
+<item type="id" name="bytes_out">false</item>
+<item type="id" name="duration">false</item>
+
+
+
+</resources>
